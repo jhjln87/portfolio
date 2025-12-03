@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+/* Removes the scroll bar */
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+body {
+  -ms-overflow-style: none; /* Internet Explorer, Edge */
+}
+html {
+  scrollbar-width: none; /* Firefox */
+}
+
+body {
+    font-family: "Montserrat";
+    margin:0;
+    background-image: url("../images/Messenger_creation_541e711b-cef8-48ee-8fab-14ccc5a66806.jpeg");
+    background-attachment: fixed;
+    background-position: center -400px;
+}
+
+.highlightYel {
+    background-color:#eebd5f;
+    border-radius: 2px;
+}
+
+header {
+    background: white;
+    display:flex;
+    height:105px;
+    align-items: center;
+    justify-content: space-between;
+}
+header h3 {
+    padding-left:100px;
+    font-size:1.8em;
+    margin:0 auto;
+}
+header a{
+    text-decoration: none;
+    color:#050033;
+    margin:4px;
+}
+header img {
+    height:66.7px;
+    position:absolute;
+    top:20px;
+    left:10px;
+}
+nav {
+    display:flex;
+    width:60%;
+    align-items:space-around;
+}
+nav a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1706b9;
+    height:100px;
+    width:20%;
+}
+nav a:hover {
+    cursor:pointer;
+    font-size:1.06em;
+    text-shadow: 2px 2px 3px #888;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    padding:30px 0px 20px 0px;
+    font-size: 12px;
+}
+footer img {
+    min-width: 20px;
+    width:1.2%;
+    margin: 0px 10px 0px 10px;
+}
+footer a{
+    color:black;
+}
+footer p {
+    margin:2px;
+}
+
+@media (width < 750px) {
+    header img {
+        display: none;
+    }
+    header h3 {
+        padding-left: 10px;
+    }
+    nav {
+        width:70%;
+    }
+}
+@media (width < 690px) {
+    header h3 {
+        display:none;
+    }
+    nav {
+        width:100%;
+    }
+}
