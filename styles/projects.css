@@ -5,30 +5,6 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
-div h2 {
-    margin: 0;
-}
-
-.teamProjects {
-    display: inline;
-    padding: 0;
-}
-.teamProjects a {
-    text-decoration: none;
-    color:black;
-    font-weight: 700;
-}
-.teamProjects a:hover {
-    text-decoration: underline;
-}
-.teamProjects p {
-    margin-top: 0;
-}
-.teamProjects img {
-    margin-left: 4%;
-    width: 90%;
-}
-
 iframe {
     aspect-ratio: 16 / 9;
     width: 70%;
@@ -38,7 +14,42 @@ iframe {
     background-color:rgba(23, 6, 185, 0.5);
     color:#e6e6e6;
 }
+#websites div {
+    border-bottom: white 1px solid;
+}
+#emptydiv {
+    border: none !important;
+}
+#websites a {
+    text-decoration: none;
+    color: #e6e6e6;
+    font-weight: 700;
+}
 
 #teamProjects {
     background-color: white;
+}
+#teamProjects a {
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
+#teamProjects a:hover, #websites a:hover {
+    text-decoration: underline;
+}
+
+div h2 {
+    margin: 0;
+}
+
+.teamProjects {
+    display: inline;
+    padding: 0;
+}
+.teamProjects p {
+    margin-top: 0;
+}
+.teamProjects img {
+    margin-left: 4%;
+    width: 90%;
 }
