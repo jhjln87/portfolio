@@ -80,6 +80,7 @@ footer img {
 }
 footer a{
     color:black;
+    margin: 0 2px;
 }
 footer p {
     margin:2px;

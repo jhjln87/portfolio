@@ -1,55 +1,66 @@
-#systems, #teamProjects, #websites {
+#systems, #websites {
     padding: 40px 16%;
     display: grid;
     gap:16px;
     grid-template-columns: repeat(2, 1fr);
 }
 
-iframe {
-    aspect-ratio: 16 / 9;
-    width: 70%;
-}
-
-#systems, #websites {
-    background-color:rgba(23, 6, 185, 0.5);
-    color:#e6e6e6;
-}
-#websites div {
-    border-bottom: white 1px solid;
+div h2 {
+    margin: 0;
 }
 #emptydiv {
     border: none !important;
 }
+
+#hero {
+    background-color: rgba(23, 6, 185, 0.5);
+    text-align: center;
+    color:#e6e6e6;
+    padding: 200px;
+}
+#hero a {
+    text-decoration: none;
+    color:#e6e6e6;
+}
+#hero #biglink {
+    font-weight: 700;
+    font-size: 35px;
+}
+#hero a:hover{
+    text-decoration: underline;
+}
+#hero p{
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+#websites {
+    background-color: white;
+}
 #websites a {
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
+#websites a:hover, #systems a:hover {
+    text-decoration: underline;
+}
+
+#systems {
+    background-color:rgba(23, 6, 185, 0.5);
+    color:#e6e6e6;
+}
+#systems div {
+    border-bottom: white 1px solid;
+}
+#systems a {
     text-decoration: none;
     color: #e6e6e6;
     font-weight: 700;
 }
 
-#teamProjects {
-    background-color: white;
-}
-#teamProjects a {
-    text-decoration: none;
-    color:black;
-    font-weight: 700;
-}
-#teamProjects a:hover, #websites a:hover {
-    text-decoration: underline;
-}
-
-div h2 {
-    margin: 0;
-}
-
-.teamProjects {
-    display: inline;
-    padding: 0;
-}
-.teamProjects p {
-    margin-top: 0;
-}
-.teamProjects img {
+main img {
     margin-left: 4%;
     width: 90%;
 }
