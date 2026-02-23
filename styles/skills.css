@@ -13,6 +13,9 @@
     transform: scale(1.1);
     cursor: default;
 }
+.bold {
+    font-weight: 700;
+}
 
 #sales {
     background-color: white;
