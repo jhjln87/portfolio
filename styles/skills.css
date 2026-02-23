@@ -17,6 +17,7 @@
 #sales {
     background-color: white;
     padding: 40px 16%;
+    border-bottom: solid black 1px;
 }
 #sales img {
     width: 30%;
@@ -39,6 +40,7 @@
     grid-row: 3;
     grid-column: 17 / span 8;
 }
+
 
 @media (width < 750px) {
     #sales img {
