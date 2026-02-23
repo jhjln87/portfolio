@@ -87,17 +87,6 @@ footer p {
 }
 
 @media (width < 750px) {
-    header img {
-        display: none;
-    }
-    header h3 {
-        padding-left: 10px;
-    }
-    nav {
-        width:70%;
-    }
-}
-@media (width < 690px) {
     header h3 {
         display:none;
     }

@@ -1,0 +1,47 @@
+#skills {
+    padding: 40px 6%;
+    display: grid;
+    gap:16px;
+    grid-template-columns: repeat(25, 1fr);
+    background-color: rgba(23, 6, 185, 0.5);
+    color:#e6e6e6;
+}
+#skills p{
+    transition: transform 0.3s ease; 
+}
+#skills p:hover {
+    transform: scale(1.1);
+    cursor: default;
+}
+
+#sales {
+    background-color: white;
+    padding: 40px 16%;
+}
+#sales img {
+    width: 30%;
+    float: right;
+    margin: 0 16px;
+}
+#sales div{
+    margin: 40px 0;
+}
+
+#skill1 {
+    grid-row: 1;
+    grid-column: 6 / span 12;
+}
+#skill2 {
+    grid-row: 2;
+    grid-column: 3 / span 12;
+}
+#skill3 {
+    grid-row: 3;
+    grid-column: 17 / span 8;
+}
+
+@media (width < 750px) {
+    #sales img {
+        display: none;
+    }
+}

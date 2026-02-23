@@ -16,7 +16,7 @@ div h2 {
     background-color: rgba(23, 6, 185, 0.5);
     text-align: center;
     color:#e6e6e6;
-    padding: 200px;
+    padding: 200px 20px;
 }
 #hero a {
     text-decoration: none;
@@ -37,6 +37,9 @@ div h2 {
 
 #websites {
     background-color: white;
+}
+#websites div {
+    border-bottom: black 1px solid;
 }
 #websites a {
     text-decoration: none;
@@ -63,4 +66,14 @@ div h2 {
 main img {
     margin-left: 4%;
     width: 90%;
+}
+
+
+@media (width < 750px) {
+    #systems, #websites {
+        display: block;
+    }
+    #systems div, #websites div, #systems h2, #websites h2 {
+        margin: 16px;
+    }
 }
