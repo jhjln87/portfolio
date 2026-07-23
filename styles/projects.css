@@ -36,14 +36,15 @@ div h2 {
 
 
 #websites {
-    background-color: white;
+    background-color:rgba(23, 6, 185, 0.5);
+    color:#e6e6e6;
 }
 #websites div {
-    border-bottom: black 1px solid;
+    border-bottom: white 1px solid;
 }
 #websites a {
     text-decoration: none;
-    color:black;
+    color: #e6e6e6;
     font-weight: 700;
 }
 #websites a:hover, #systems a:hover {
@@ -51,15 +52,14 @@ div h2 {
 }
 
 #systems {
-    background-color:rgba(23, 6, 185, 0.5);
-    color:#e6e6e6;
+    background-color: white;
 }
 #systems div {
-    border-bottom: white 1px solid;
+    border-bottom: black 1px solid;
 }
 #systems a {
     text-decoration: none;
-    color: #e6e6e6;
+    color: black;
     font-weight: 700;
 }
 

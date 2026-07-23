@@ -28,65 +28,50 @@
             <p>I am searching for internships! Anything computer related. I have:</p>
             <br>
             <p>2+ years experience building websites</p>
-            <p>3+ years experience in programming languages such as Python, C, C++</p>
+            <p>3+ years experience in programming languages such as Python, C#, C, or C++</p>
             <p>6+ months experience in computer hardware and circuitry</p>
             <br>
             <p>Please message me on <a href="https://www.linkedin.com/in/johnwendt04/" target="_blank">LinkedIn</a> or email me at <a href="mailto:jrwendt2004@gmail.com">jrwendt2004@gmail.com</a>!</p>
-        </div>
-        <div id="websites">
-            <h2>My websites</h2>
-            <div id="emptydiv"></div>
-            <div>
-                <a href="../index.html" target="_blank">My portfolio</a>
-                <p>This is my main website. It has links to every bit of my professional life.</p>
-            </div>
-            <div>
-                <a>Legend of the Six</a>
-                <p>Not out yet, but coming soon! Will be a huge web page containing episodes on six friends, written by Kaitlyn Wendt</p>
-            </div>
-            <div>
-                <a href="https://thechorewars.com/" target="_blank">The Chore Wars</a>
-                <p>In order: Parker Dragovich, Caden Reeder, John Wendt, Cole Popejoy, Sean Heiner, Kendall Olson, Nicholas Olsen, Carson Alder, Nick Gray</p>
-                <img src="../images/choreWars.jpg">
-                <p>Originally built by Kendall Olson, Sean Heiner, and Parker Dragovich in a hackathon. As a team project we transformed it into a functioning website with group pages and a login system, as well as touching up the UI and adding mobile useability.</p>
-                <p>For this project, I did some of the graphic design, and a majority of the CSS cleanup, reogranization, and commenting, for code readability and for minor bug fixes.</p>
-            </div>
-            <div>
-                <a href="https://jhjln87.github.io/cuy/" target="_blank">(100% AI) Cuy Market</a>
-                <p>In order: Carson McBride, Tymofii Khilobok, John Wendt, Garan Nelson, Chance Ladd, Spencer Reitz</p>
-                <img src="../images/cuyMarket.jpg">
-                <p>This is only for theory. This is not actually a business.</p>
-                <p>For an AI course, we were given one hour to create a presentable business using only AI. We generated a 14-part business plan, a logo, motto, elevator pitch, and 10-step marketing plan.</p>
-                <p>From that, we AI generated a website (linked at the top), a 13-slide presentation, and used AI to create a guinea pig video that would present for us.</p>
-            </div>
-            <div>
-                <a href="https://jhjln87.github.io/seniorcapstone/" target="_blank">Zero-sum games Research</a>
-                <p>This was my very first website, and my final project in high school. I was to do 30+ hours of research, so I chose to learn very basic C++ and create two zero-sum games using three coding languages. I then compared these games and created this site as my presentation for it.</p>
-                <p>I created 'Rock, Paper, Scissors' and 'Gambling' using HTML, CSS, and beginner JavaScript</p>
-                <p>I created 'Rock, Paper, Scissors' and 'Tic Tac Toe' using Python</p>
-                <p>I created 'Rock, Paper, Scissors' and 'Five' using C++</p>
-            </div>
         </div>
         <div id="systems">
             <h2>My Hardware</h2>
             <div id="emptydiv"></div>
             <div>
-                <h4>Weather sensor and interpreter</h4>
-                <p>For two college projects, I hooked up an Arduino board and temperature sensor to a program. This program would interpret the temperature and humidity, as well as scraping wind speed off a scraping site for my local area. It would calcluate the 'feels like' temperature and give suggestions for how many layers you should wear.</p>
-                <img src="../images/tempSensor.png">
-                <p>For submission purposes, I was required to make an <a href="https://github.com/jhjln87/cse111/blob/main/findTempArduino.ino" target="_blank">Arduino file</a>, a <a href="https://github.com/jhjln87/cse111/blob/main/clothes.py" target="_blank">Python file</a>, and a <a href="https://github.com/jhjln87/cse111/blob/main/test_clothes.py" target="_blank">Python test file</a>.</p>
+                <h4>Faux Computer Mouse</h4>
+                <p>My computer's touch pad broke. Rather than buying a computer mouse, I made one. Using STM32's IDE and MX tool I programmed the microcontroller to act as an actual computer mouse using the USB HID protocol. It runs an accelerometer for movement, a potentiometer for scroll, and two buttons for clicking.</p>
+                <img src="../images/computer_mouse.jpg">
+                <p>View the full project file <a href="https://github.com/jhjln87/computer_mouse/tree/main/stm32%20bare-bones%20mouse" target="_blank">here</a> and the project demo <a href="https://youtu.be/B6O-TBFDbyw" target="_blank">here</a>.</p>
             </div>
             <div>
-                <a href="https://github.com/jhjln87/ecen240-dump/tree/main/Lab_6_arithmeticLogicUnit" target="_blank">Digital Arithmetic Logic Unit</a>
-                <p>For a college lab, I was to create a four-function arithmetic logic unit with functions XOR, OR, AND, and ADD. I also had to create a multiplexer from scratch and have it determine the function performed. My last task was to write SystemVerilog code to replicate the original schematic. In my free time, I doubled the use of this, and added the functions of LSL, LSR, as well as 1's complement and subtraction. I also combined my four-input multiplexers to make an eight-input multiplexer.</p>
-                <img src="../images/lab6.jpg">
-                <p>The image contains my SystemVerilog code and an FPGA. I hooked up the FPGA to allow for the two inputs to be the leftmost and rightmost four buttons in the row on the bottom. The five buttons lined up in a plus control my MUX.</p>
+                <h4>Computer Metrics LCD Display</h4>
+                <p>Using seven C# classes, I polled metrics from my windows computer and serially sent them to a STM32 microcontroller. Using code provided in a lab I had done, that was then sent to a character LCD screen.</p>
+                <img src="../images/LCD_metrics.png">
+                <p>View the project file <a href="https://github.com/jhjln87/LCD_display_metrics" target="_blank">here</a> and the project demo <a href="https://youtu.be/y3SKaO7fD4A?si=iyQsEyRPx1xxpjQL" target="_blank">here</a>.</p>
             </div>
             <div>
-                <a href="https://github.com/jhjln87/logisim-cpu" target="_blank">4-bit Virtual CPU</a>
+                <h4>4-bit Virtual CPU</h4>
                 <p>As part of a final project, I had to make a working virtual 5-function CPU. After the semester, I added 7 more functions involving arithmetic and other binary operators. It is the functionality of a real 4-bit 1970s CPU.</p>
                 <img src="../images/logisimCpu.png">
                 <p>The image includes the LogiSim virtual circuitry of a ABET-accredited level CPU.</p>
+                <p>View the project files <a href="https://github.com/jhjln87/logisim-cpu" target="_blank">here</a>.</p>
+            </div>
+        </div>
+        <div id="websites">
+            <h2>My websites</h2>
+            <div id="emptydiv"></div>
+            <div>
+                <h4>The Chore Wars (.com)</h4>
+                <p>In order: Parker Dragovich, Caden Reeder, John Wendt, Cole Popejoy, Sean Heiner, Kendall Olson, Nicholas Olsen, Carson Alder, Nick Gray</p>
+                <img src="../images/choreWars.jpg">
+                <p>Originally built by Kendall Olson, Sean Heiner, and Parker Dragovich in a hackathon. As a team project we transformed it into a functioning website with group pages and a login system, as well as touching up the UI and adding mobile useability.</p>
+                <p>For this project, I did some of the graphic design, and a majority of the CSS cleanup, reogranization, and commenting, for code readability and for minor bug fixes.</p>
+                <p>View the project site <a href="https://thechorewars.com/" target="_blank">here</a>.</p>
+            </div>
+            <div>
+                <h4>List Sorting Web App</h4><br>
+                <img src="../images/sort_group.png">
+                <p>This was a personal project of mine, as I was learning to utilize JavaScript in my web development. I wanted to build a similar product to match a specific genre of YouTube video where different sortingm methods are visualized.</p>
+                <p>View the project site <a href="https://jhjln87.github.io/wdd131/final/list-sorter/index.html" target="_blank">here</a></p>
             </div>
         </div>
     </main>

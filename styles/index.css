@@ -39,6 +39,10 @@
     text-align: center;
     padding: 90px 5% 115px 5%;
 }
+#m2 div {
+    display: flex;
+    flex-direction: column;
+}
 #m2 h1 {
     margin-bottom: 50px;
     font-size: 2.1vw;
