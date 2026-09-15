@@ -29,6 +29,11 @@ const skillsData = [
         author: "Gary Godderidge, professor",
         quote: "Dutiful, responsible, caring, talented, gifted, and capable",
         span: 12
+    },
+    {
+        author: "Jim Croasmun, professor",
+        quote: "Polished and watchful",
+        span: 10
     }
 ]
 
